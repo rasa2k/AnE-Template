@@ -1,6 +1,7 @@
 import { AppBar, Box, Button, Toolbar, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
+import Navigation from '../Navigation/Navigation';
 
 interface HeaderProps {
   appName?: string;
@@ -30,6 +31,9 @@ function PageHeader({ appName }: HeaderProps) {
         >
           {appName}
         </Typography>
+
+        <Navigation />
+
         <Box
           sx={{
             backgroundColor: 'secondary.main',

@@ -1,6 +1,7 @@
-import HomePage from '../../pages/Home';
 import { Box } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
+import HomePage from '../../pages/Home';
+import DashboardPage from '../../pages/Dashboard';
 
 function PageBody() {
   return (
@@ -14,6 +15,7 @@ function PageBody() {
     >
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
       </Routes>
     </Box>
   );

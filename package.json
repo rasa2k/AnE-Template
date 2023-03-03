@@ -1,24 +1,26 @@
 {
   "name": "ane-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "homepage": ".",
   "dependencies": {
+    "@dhi/icons": "^2.0.1",
+    "@dhi/react-components-lab": "^2.2.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
     "@types/node": "^16.18.14",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "ol": "^7.2.2",
+    "plotly.js": "^2.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-plotly.js": "^2.6.0",
     "react-router-dom": "^6.8.2",
-    "typescript": "^4.9.5",
-    "@mui/material": "^5.11.11",
-    "@mui/icons-material": "^5.11.11",
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@dhi/react-components-lab": "^2.2.4",
-    "@dhi/icons": "^2.0.1",
-    "ol": "^7.2.2"
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,6 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@types/ol": "^7.0.0"
+    "@types/ol": "^7.0.0",
+    "@types/plotly.js": "^2.12.18",
+    "@types/react-plotly.js": "^2.6.0"
   }
 }
